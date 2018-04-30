@@ -1,4 +1,4 @@
-# Javascript Uygulama 7
+# Javascript Uygulama 8
 
 Bu uygulamada javascript dilini kullanarak verilen sorulara çözüm yazmanız gerekmektedir. Soruları görmek ve çözmek için index.html dosyasını bilgisayarınıza indirerek çalıştırmalısınız. 
 
