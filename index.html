@@ -28,7 +28,21 @@
         /**
          * Sorunun cevabını bu yorumdan sonra yazınız.
          */
+            // gerekli değişkenleri tanımlıyoruz
+        var sayi1 = 0;
+        var sayi2 = 0;
+        var carpim = 0;
 
+        document.getElementById("hesapla").onclick = function () {
+            carpim=0;// butona her basıldığında önceki sonuçtan kalan değeri sıfırlamamız gerekiyor.
+            // kullanıcının girdiği sayıları alıyoruz
+            sayi1 = Number(document.getElementById("sayi1").value);
+            sayi2 = Number(document.getElementById("sayi2").value);
+            for (var i = 1; i <= sayi1; i++) {
+                carpim += sayi2;
+            }
+            document.getElementById("cevap-1").innerHTML = "girilen sayıların çarpımı = " + carpim;
+        }
         
     </script>
     <div class="clearfix"></div>
